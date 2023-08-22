@@ -7,6 +7,6 @@
     <!-- bean definitions here -->
 	<!-- spring knows which class to make singalton by reading this file -->
 	
-	<!-- this is for spring bean configurations -->
+	<!-- this is for spring IoC container - kyathi class lav k jene singalton banavana chhe em -->
 	<bean class="com.controller.SessionLoginServlet" id="sessionController"></bean>
 </beans>
